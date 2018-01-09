@@ -1,2 +1,3 @@
-alert("I'm Javascript")
-[1,2].forEach(alert)
+function myFunction() {
+	document.getElementById("header").innerHTML = "Xin chao";
+}
