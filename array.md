@@ -20,10 +20,8 @@ function printEntries(arr) {
 ```
 #### But, the ```length``` property does not necessarily indicate the number of defined values in the array.
 
-## Mutator methods
-
-## Array.prototype.copyWithin()
-#### Copies a sequence of array elements within the array. The ```conpyWithin()``` method shallow copies part of an array to another location in the same array and return it, without modifying its size
+## 2.Array.prototype.copyWithin()
+### Copies a sequence of array elements within the array. The ```conpyWithin()``` method shallow copies part of an array to another location in the same array and return it, without modifying its size
 #### Syntax
 ```
 arr.copyWithin(target[, start[, end]])
