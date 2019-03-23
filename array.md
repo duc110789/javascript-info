@@ -1,8 +1,12 @@
 ## 1. Array.length
 ### The ```length``` property of an array: Returns the numner of elements in that array.
+#### Syntax
+```
+  arr.length
+```
 ```javascript
-var clothing = ['shoes', 'shirts', 'socks', 'sweaters'];
-console.log('clothing', clothing.length);
+  var clothing = ['shoes', 'shirts', 'socks', 'sweaters'];
+  console.log('clothing', clothing.length);
 ```
 #### You can set the ```length``` property to truncate an array at any time. When you extend an array by changing its ```length``` property, the number actual elements increases
 ```javascript
@@ -24,11 +28,11 @@ function printEntries(arr) {
 ### Copies a sequence of array elements within the array. The ```conpyWithin()``` method shallow copies part of an array to another location in the same array and return it, without modifying its size
 #### Syntax
 ```
-arr.copyWithin(target[, start[, end]])
+  arr.copyWithin(target[, start[, end]])
 ```
 ```javascript
-var array1 = ['a', 'b', 'c', 'd', 'e'];
-// copy index 0 to index 3
-console.log(array1.copyWithin(0, 3, 4));
+  var array1 = ['a', 'b', 'c', 'd', 'e'];
+  // copy index 0 to index 3
+  console.log(array1.copyWithin(0, 3, 4));
 ```
 
