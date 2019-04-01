@@ -212,7 +212,7 @@
   console.log(filterItems(fruits, 'an')); // ['banana', 'mango', 'orange']
 ```
 
-## 14. Array.prototype.reduce()
+## 15. Array.prototype.reduce()
 ### The reduce() method executes a reducer function (that you provide) on earch member of the array resulting in a single output value
 #### Syntax
 ```
