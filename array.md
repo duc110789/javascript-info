@@ -1,8 +1,10 @@
+```javascript
 ### Trả lời các câu hỏi
 #### 1. Nó là gì
 #### 2. Cú pháp và giải thích ý nghĩa từng parameters
 #### 3. Ví dụ đơn giản
 #### 4. Trong thực tế
+```
 
 ## 1. Array.length
 ### The ```length``` property of an array: Returns the numner of elements in that array.
