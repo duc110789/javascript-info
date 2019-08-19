@@ -116,3 +116,17 @@ console.log('reduced', reduced); // [2, 3];
   console.log('reduceDistances:', reduceDistances); // 22182
 ```
 
+## Mix 3 method trong 1 bài toán: Tìm quãng đường đi theo miles < 10000km
+```javascript
+let distances = [
+  { from: 'New York', to: 'Dhaka', distance: 12654},
+  { from: 'Sydney', to: 'chittagong', distance: 8858},
+  { from: 'Kolkata', to: 'Sylhet', distance: 670}
+];
+
+let total = distances.filter(item => item.distance < 10000)
+                     .map(item => item.distance * 0.621371)
+                     .reduce((acc, cur) => acc + cur, 0);
+console.log('total:', total);
+```
+
