@@ -116,7 +116,7 @@ console.log('reduced', reduced); // [2, 3];
   console.log('reduceDistances:', reduceDistances); // 22182
 ```
 
-## Mix 3 method trong 1 bài toán: Tìm quãng đường đi theo miles < 10000km
+#### Mix 3 method trong 1 bài toán: Tìm quãng đường đi theo miles < 10000km
 ```javascript
 let distances = [
   { from: 'New York', to: 'Dhaka', distance: 12654},
